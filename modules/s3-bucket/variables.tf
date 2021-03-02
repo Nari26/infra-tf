@@ -5,3 +5,11 @@ variable "bucket" {
 variable "acl" {
     default = "private"
 }
+
+variable "kms_master_key_id" {
+    default = ""
+}
+
+variable "sse_algorithm" {
+    default = ""
+}
